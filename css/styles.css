@@ -1,0 +1,354 @@
+body {
+    background-color: lightgrey;
+    bottom: 0;
+}
+
+h2{
+    align-items: center;
+}
+
+header,
+nav,
+main,
+footer {
+    padding: 1em 0;
+}
+
+header {
+    display: flex;
+    justify-content: flex-start ;    
+    background-color: white;
+    color: black;
+    text-align: center;
+  
+}
+
+
+.header_titre {
+    width: 80%;
+    padding-right: 15%;
+    padding-top: 1%;
+}
+
+.header_logo {
+    width: 50%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;    
+	background-color: rgb(74, 172, 185);
+    padding-left: 1em;
+    padding-right: 1em;
+	line-height: 2em;
+    border: 1px black;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+nav a:link, nav a:visited, nav a:active{
+    text-decoration: none;
+    color: black;
+}
+
+nav a:hover{
+    color: rgb(249, 249, 249);
+    text-shadow: 2px, rgb(114, 114, 114);
+    
+}
+
+footer {
+	display: flex;
+	justify-content: space-around;
+    background-color: white;
+    margin-top: 10%;
+}
+
+footer a{
+    text-decoration: none;
+    color: black;
+}
+
+footer a:hover{
+    color: rgb(86, 175, 163);
+    text-shadow: 2px, rgb(114, 114, 114);
+}
+
+footer span{
+    padding-top: 1%;
+    flex-basis: 100%;
+    text-align: center;
+}
+
+.footer-content {
+    margin-top: 10px;
+}
+
+.footer-content span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.my-img{
+    max-width: 100px;
+}
+
+.main_div {
+    display: flex;
+	justify-content: space-between;
+    margin: auto;
+    box-sizing: border-box;
+	height: 100%;
+}
+
+.bloc_commandes{
+    border: 1px solid gray;
+    border-radius: 2em;
+    background-color: white;
+    margin-left: 5%;
+    margin-bottom: 2%;
+    padding: 10px 10px 10px 10px;
+    width: 1000px;
+    margin-bottom: 100%
+}
+
+.bloc_commandes > input[type=submit]{
+    width : 15%;
+    font-size: 1.2em;
+    margin-left: 4%;
+    
+}
+
+
+.bloc_commandes > select{
+    width: 30%; 
+    font-size: 1.2em;
+    margin-left: 1%;
+    margin-right: 1%;
+    text-align: center;
+}
+
+.bloc_commandes > input[type=submit]:hover, .bloc_commandes > select:hover{
+
+    cursor: pointer;
+}
+
+.descr{
+    width: 500px;
+    height: 80px;
+    color:red;
+}
+
+.table_resultat{
+    width: 25%;
+    border: 1px solid gray;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.table_resultat > thead > tr{
+    border: 1px solid gray;
+    background-color: rgb(74, 172, 185);
+}
+
+.table_resultat > tbody > tr:hover{
+    cursor: pointer;
+    background-color: gray !important;
+    color:  white;
+}
+
+.table_resultat > tbody > tr:nth-child(2n){
+    border: 1px solid gray;
+    background-color: lightgrey;
+}
+
+
+.table_resultat > tbody > tr:nth-child(2n+1){
+    border: 1px solid gray;
+    background-color: white;
+}
+
+.panneau{
+    justify-content: flex-start;
+    width: 100%;
+    height:100%;
+    text-align: center;    
+}
+
+.descr_acceuil{
+    width: 50%;
+    font-family: Arial;
+    font-size: 25px;
+    margin: auto;
+}
+
+.ligita{
+    color: black;
+    text-decoration: none;
+    font-family:arial;
+    font-size: 25px;
+    font-weight: bold;
+    list-style: none;
+}
+
+.ligita:hover{
+    color:rgb(74, 172, 185);
+}
+
+.carble a:hover{
+    color:rgb(74, 172, 185);
+}
+
+.titre_descr_accueil{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+h3{
+    font-family: Arial;
+    font-size: 20px;
+}
+
+.titre_stats{
+    font-family: Arial;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.vuee{
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 50%;
+}
+
+.titre_form_fed{
+    text-align:center;
+    font-family: Arial;
+    font-size: 25px;
+}
+
+.bloc_commandes{
+    margin: auto;
+    text-align: center;
+    border-radius: 10px;
+    width: 700px;
+}
+
+.tabfedivprince{
+    margin-left: auto;
+    margin-right: auto;
+    height:100%;
+    
+}
+
+.logo_tabordfed{
+    margin-right:20px;
+}
+
+.table_resultat_fed{
+    width: 50%;
+    border: 1px solid gray;
+    background-color: white;
+    text-align: center;
+    margin: auto;
+}
+
+.table_resultat_fed > thead > tr{
+    border: 1px solid gray;
+    background-color: rgb(74, 172, 185);
+}
+
+.table_resultat_fed > tbody > tr:hover{
+    cursor: pointer;
+    background-color: gray !important;
+    color:  white;
+}
+
+.table_resultat_fed > tbody > tr:nth-child(2n){
+    border: 1px solid gray;
+    background-color: lightgrey;
+}
+
+
+.table_resultat_fed > tbody > tr:nth-child(2n+1){
+    border: 1px solid gray;
+    background-color: white;
+}
+.rescompet{
+    text-align: center;
+    margin-top: 100px;
+}
+
+.panneau_details{
+    margin-bottom: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.fonct_fed{
+    font-family: Arial;
+    margin-top: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.list_plan{
+    margin-bottom: 50%;
+}
+
+.notification{
+    background-color: #ffffe6;
+    margin: 1em;
+    padding: 1em;
+    border: 1px solid  #ffffe6;
+
+}
+
+.titre_form_membres{
+    text-align: center;
+    font-family: arial;
+    font-size: 30px;
+}
+
+.instruction_membres{
+    text-align: center;
+    font-family: arial;
+}
+
+.div_boutton_ajouter{
+    justify-content: center;
+    text-align: center;
+    margin-top: 30px;
+    font-family: arial;
+}
+
+#boutton_ajouter{
+    margin: auto;
+    height:30px;
+    width: 200px;
+    font-size: 15px;
+}
+
+.table_membre{
+    margin-top: 30px;
+    text-align: center;
+}
+
+#modifier{
+    margin-top: 10px;
+    height: 20px;
+    width: 75px;
+}
+
+.div_modif{
+    text-align: center;
+    font-family: arial;
+}
+
+.vide{
+    margin-bottom: 300px;
+}
