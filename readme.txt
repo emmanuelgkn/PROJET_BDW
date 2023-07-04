@@ -12,7 +12,7 @@ membre d'une fédération ou la gestion des cours des diiférents adhérents d'u
 
 Pour réaliser ce site les professeurs ont mis en place une base de données remplie avec les différentes
 informations dont nous avions besoin pour mettre en place la base de donnée que nous avions conçu
-au préalable avec le shéma E/A qui est présent dans le répertoire ./démo et nous avons, à partir 
+au préalable avec le shéma E/A qui est présent dans le répertoire ./demo et nous avons, à partir 
 de cette base de donnée mis en place différentes fonctionnalités tels que l'ajout ou le retrait 
 de membres d'une fédération ou encore l'affichage des différentes statistiques de la base de donnée 
 avec des requettes SQL incorporé dans le code PHP du site web.
@@ -26,5 +26,5 @@ gestion de l'affichage des éléments dans les différentes pages web du site et
 le controleur pour l'utilisation des fonction et la gestion des éventuelles erreurs.
 
 ==== LA DEMO === 
-Dans le répertoire ./démo vous verrez les différentes captures d'écrans du site
+Dans le répertoire ./demo vous verrez les différentes captures d'écrans du site
 et le shéma E/A pour avoir un rapide apperçu de ce que nous avons réalisé.
