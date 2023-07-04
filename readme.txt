@@ -15,7 +15,8 @@ informations dont nous avions besoin pour mettre en place la base de donnée que
 au préalable avec le shéma E/A qui est présent dans le répertoire ./demo et nous avons, à partir 
 de cette base de donnée mis en place différentes fonctionnalités tels que l'ajout ou le retrait 
 de membres d'une fédération ou encore l'affichage des différentes statistiques de la base de donnée 
-avec des requettes SQL incorporé dans le code PHP du site web.
+avec des requettes SQL incorporé dans le code PHP du site web. Dans les fichers creation et importation 
+vous aurez un apperçu de la création de la base de donnée.
 
 ====  CONCEPTION DU SITE ====
 
