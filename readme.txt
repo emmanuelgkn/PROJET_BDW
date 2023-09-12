@@ -29,5 +29,3 @@ le controleur pour l'utilisation des fonction et la gestion des éventuelles err
 ==== LA DEMO === 
 Dans le répertoire ./demo vous verrez les différentes captures d'écrans du site
 et le shéma E/A pour avoir un rapide apperçu de ce que nous avons réalisé.
-
-Bonjour :) ceci est un test !
