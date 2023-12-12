@@ -6,7 +6,7 @@
 ## DESCRIPTION 
 
 Dans le cadre de l'ue BDW (Bases de donnes et Programmation Web) nous avons developpé un site de 
-gestion de fédérations et d'écoles de danses. Ce site permet d'effectuer pusieurs actions tel que l'ajout d'un 
+gestion de fédérations et d'écoles de danses. Ce site permet d'effectuer plusieurs actions tel que l'ajout d'un 
 membre d'une fédération ou la gestion des cours des diiférents adhérents d'une école de danse.
 
 ## BASE DE DONNES 
